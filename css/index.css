@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+body{
+  background-color: #091B52;
+}
+
+h1 {
+  font-family: 'DotGothic16', sans-serif;
+  color: #e0edff;
+  text-align:center;
+}
+
+h2 {
+  position: relative;
+  padding: 0.6em;
+  background: #e0edff;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+h2:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #e0edff;
+  width: 0;
+  height: 0;
+}
+
+p {
+  font-family: 'DotGothic16', sans-serif;
+  color: #e0edff;
+  text-align:center;
+  font-size: medium;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.logo{
+  text-align:center;
+}
+
+.oimo{
+  text-align:center;
+}
