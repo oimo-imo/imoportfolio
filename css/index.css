@@ -46,6 +46,8 @@ footer {
   margin: 30px;
 }
 
+img { width: 100%; }
+
 .logo img {
   width: 300px;
 }
@@ -66,5 +68,6 @@ footer {
 }
 
 .yoro img {
-	width: 650px;
-}
+  /* width: 650px; */
+      max-width: 650px;
+  }
